@@ -61,3 +61,10 @@ description='''${mod_description}'''
    versionRange="${minecraft_version_range}"
    ordering="NONE"
    side="BOTH"
+
+[[dependencies.${mod_id}]]
+   modId="ic2"
+   mandatory=true
+   versionRange="[1.19.2-2,)"
+   ordering="AFTER"
+   side="BOTH"

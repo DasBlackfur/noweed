@@ -159,10 +159,10 @@ dependencies {
     // The group id is ignored when searching -- in this case, it is "blank"
 
     // for dev env
-    implementation fg.deobf("blank:IC2Classic-${minecraft_version}:2.0.7.1")
+    //implementation fg.deobf("blank:IC2Classic-${minecraft_version}:2.0.7.1")
 
     // for build
-    //compileOnly fg.deobf("blank:IC2Classic-${minecraft_version}:2.0.7.1")
+    compileOnly fg.deobf("blank:IC2Classic-${minecraft_version}:2.0.7.1")
 
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html

@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "noweed.refmap.json",
   "mixins": [
+    "WeedGrowMixin"
   ],
   "client": [
   ],

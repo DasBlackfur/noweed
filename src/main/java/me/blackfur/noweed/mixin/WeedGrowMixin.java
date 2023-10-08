@@ -2,14 +2,11 @@ package me.blackfur.noweed.mixin;
 
 import ic2.core.block.crops.CropTileEntity;
 import me.blackfur.noweed.Config;
-import net.minecraftforge.common.ForgeConfig;
-import org.spongepowered.asm.mixin.Debug;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-@Debug(export = true)
 @Mixin(CropTileEntity.class)
 public class WeedGrowMixin {
     @Inject(
